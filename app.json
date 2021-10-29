@@ -8,7 +8,7 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#000"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -20,10 +20,16 @@
       "supportsTablet": true
     },
     "android": {
+      "permissions": [],
+      "versionCode": 3,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-2757750706281945~1562167958"
+      },
+      "package": "com.splashdev.greatlight"
     },
     "web": {
       "favicon": "./assets/favicon.png"
